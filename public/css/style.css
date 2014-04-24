@@ -3,117 +3,161 @@
     src: url('fonts/Exo-BoldItalic.otf');
 }
 .app-content {
-	width: 100%;
+    width: 100%;
 }
-
 #slogan {
-	font-family: "Exo";
-	font-size: 24px;
-	color: #008EB0;
-	margin-top: 30px;
-	margin-bottom: 30px;
+    font-family: "Exo";
+    font-size: 30px;
+    color: #008EB0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-
 .action {
-	font-family: "Exo";
-	font-size: 16px;
-	padding-top: 15px;
-	color: #008EB0;
+    font-family: "Exo";
+    font-size: 16px;
+    padding-top: 15px;
+    color: #008EB0;
 }
-
 .text {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-
 row {
-	margin-left: 0;
+    margin-left: 0;
 }
 .navbar-btn {
-	margin-top: 15px;
+    margin-top: 15px;
 }
-
 .img-carousel {
-  max-height: 350px; 
-  max-width: 100%; 
-  min-height: 350px; 
-  min-width: 100%;"
-}  
-
-.app-footer {
-  width: 100%;
-  padding-bottom: 30px;	
+    max-height: 350px;
+    max-width: 100%;
+    min-height: 350px;
+    min-width: 100%;
+    ""
 }
-
+.logo {
+    margin: 5px 10px;
+    vertical-align: center;
+}
+.app-footer {
+    width: 100%;
+    padding-bottom: 30px;
+}
 .link-menu {
-	font-size: 12px;
-	font-weight: bold;
-
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Exo";
+    color: #008EB0;
+}
+a.link-menu:hover {
+    font-size: 13px;
+    text-decoration: none;
 }
 .navbar-btn {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
-
 .navbar {
-	margin-bottom: 0;
+    margin-bottom: 0;
 }
-
 .submenu {
-	background-color: #3b5998;
-	height: 50px;
+    background-color: #3b5998;
+    height: 50px;
 }
-
 .div-carousel {
-	border-bottom: 4px;
-	border-bottom-style: solid;
-	border-bottom-color: #3b5998;
+    border-bottom: 4px;
+    border-bottom-style: solid;
+    border-bottom-color: #3b5998;
 }
-
-.test {
-
+.test {} .link-group h5 {
+    font-weight: bold;
 }
-
-.link-group h5 {
-	font-weight: bold;
-}
-
 .link-group li {
-	color : blue;
-	list-style: none;
+    color: blue;
+    list-style: none;
 }
-
 .col-md-5 h3 {
-	font-family: "Exo";
-	padding-top: 0;
-	margin-top:  12px;
-	color: #008EB0;
+    font-family: "Exo";
+    padding-top: 0;
+    margin-top: 12px;
+    color: #008EB0;
 }
-
 .col-md-3 input {
-	border-radius: 0;
-	float: right;
+    border-radius: 0;
+    float: right;
 }
 .col-md-5 input {
-	border-radius: 0;
-	float: right;
+    border-radius: 0;
+    float: right;
 }
-
 #submit-btn {
-	width: 40%;
+    width: 40%;
     font-size: 16px;
-	font-family: "Exo";
-	background-color: #008EB0;
-	color: white;
-
+    font-family: "Exo";
+    background-color: #008EB0;
+    color: white;
 }
-
 .form-group {
-	margin-bottom: 50px;
+    margin-bottom: 50px;
 }
-
 .col-md-2 {
-	padding-right: 0;
-	padding-left: 0;
-	margin-right: 0;
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
 }
-
+.submenu {
+    background-color: #008EB0;
+}
+.dropdown-menu {
+    padding: 0;
+    margin: 0;
+}
+.panel-default {
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    background-color: transparent;
+    border: 0;
+}
+.panel-heading {
+    background-color: #008EB0 !important;
+    background-image: none !important;
+    color: white !important;
+    border-radius: 0;
+    font-family: "Exo";
+}
+li.dropdown:hover {
+    font-size: 20px !important;
+}
+div.panel-heading:hover {
+    background-color: #FF6B45 !important;
+}
+.link-sub {
+    color: white;
+    font-family: "Exo";
+}
+.mycaret {
+    float: right;
+    margin-top: 5px;
+}
+li a {
+    color: black;
+}
+a {
+    color: white;
+}
+a.see {
+    color: #FF6B45;
+    font-family: "Exo";
+    float: right;
+}
+input[type='email'] {
+    width: 250px;
+    font-family: "Exo";
+    font-size: 14px;
+}
+input: invalid {
+    color: red;
+}
+input: valid {
+    color: green;
+}

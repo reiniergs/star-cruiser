@@ -1,0 +1,91 @@
+<nav class="navbar navbar-default" role="navigation">
+    <div class="container-fluid">
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                    <a href="" class="dropdown-toggle" >Dropdown <b class="caret"></b></a>
+                    <ul class="dropdown-menu" style="padding: 0; margin: 0;">
+                        <li style="padding: 0; margin: 0;">
+                            <div class="panel panel-default" style="padding: 0; margin: 0;">
+                                <div class="panel-heading" id="1" acordionid="collapseOne" status="close">
+                                    <h4 class="panel-title">
+                                    Acordion 1
+                                    <b class="caret"></b>
+                                    </h4>
+                                </div>
+                                <div id="collapseOne" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="padding: 0; margin: 0;">
+                            <div class="panel panel-default" style="padding: 0; margin: 0;">
+                                <div class="panel-heading" id="2" acordionid="collapseTwo" status="close">
+                                    <h4 class="panel-title">
+                                    Acordion 2
+                                    <b class="caret"></b>
+                                    </h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <script>
+        $(document).ready(function() { 
+
+             var opened = 0;  
+
+             function open (id) {
+               $("#" +  $("#" + id).attr('acordionid')).attr('class','panel-collapse collapse in');
+             }
+
+             function close (id) {
+               $("#" +  $("#" + id).attr('acordionid')).attr('class','panel-collapse collapse');
+             }
+
+           
+
+               $(".panel-heading").on('click',function (e) {
+                  var elem = $(this);
+                  if (opened == 0) {
+                    // abro boton
+                    opened = elem.attr('id');
+                    open(opened);
+                  } else {
+                    if (opened != elem.attr('id')) {
+                      close(opened);
+                      opened = elem.attr('id');
+                      open(opened);
+                    } else {
+                       close(opened);
+                       opened = 0;
+                    }
+                   } 
+               });
+
+              $('.dropdown').on('mouseover',function () {
+                 $(this).attr('class','dropdown open');
+              }) ; 
+              $('.dropdown').on('mouseout',function () {
+                 $(this).attr('class','dropdown');
+              }) ; 
+
+
+
+        }); // fin
+        </script>

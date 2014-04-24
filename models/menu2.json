@@ -1,0 +1,60 @@
+[
+  {
+  	"linktext" : "Opt 1",
+  	"url" : "/"
+  },
+  {
+    "linktext" : "Opt 2",
+  	"submenu"  : [
+  	   { 
+  	   	 "linktext" : "LOREM IPSUM",
+  	   	 "url"      : "/",
+         "id" : "20"
+  	   },
+  	   {
+          "linktext"  : "Accordion 1",
+          "id" : "21",
+          "accordion" : {
+          	  "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+          	  "url"  : "/"
+          }
+  	   },
+  	   {
+          "linktext"  : "Accordion 2",
+          "id" : "22",
+          "accordion" : {
+          	  "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+          	  "url"  : "/"
+          }
+  	   },
+  	   {
+          "linktext"  : "Accordion 3",
+          "id" : "23",
+          "accordion" : {
+          	  "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+          	  "url"  : "/"
+          }
+  	   }
+  	] 
+  },
+  {
+  	"linktext" : "Opt 3",
+  	"url" : "/"
+  },
+  {
+  	"linktext" : "Opts 5",
+  	"url" : "/"
+  },
+  {
+  	"linktext" : "Opt 5",
+  	"url" : "/"
+  },
+  {
+  	"linktext" : "Opt 6",
+  	"url" : "/"
+  },
+  {
+  	"linktext" : "Opt 7",
+  	"url" : "/"
+  }
+]

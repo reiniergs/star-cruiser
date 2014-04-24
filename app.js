@@ -18,7 +18,10 @@ hbs = exphbs.create({
     // with the client-side of the app (see below).
     partialsDir: ['views/templates/', 'views/partials/']
 });
+app.locals.title = "STAR CRUISER";
 
+        
+      
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', path.join(__dirname, 'views'));
@@ -37,7 +40,9 @@ if ('development' == app.get('env')) {
   app.use(express.errorHandler());
 }
 
-app.get('/', routes.index);
+app.get('/', routes.index1);
+app.get('/index2',routes.index2);
+app.get('/index3',routes.index3);
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));

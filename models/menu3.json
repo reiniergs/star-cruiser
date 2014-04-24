@@ -1,0 +1,15 @@
+[
+  {
+  	"linktext" : "About",
+  	"url" : "/"
+  },
+  {
+    "linktext" : "Rey's RESUME",
+  	"url" : "/resume"
+  },
+  {
+    "linktext" : "Rey's Linkedin",
+  	"url" : "http://www.linkedin.com/in/reiniergs/"
+  }
+
+]

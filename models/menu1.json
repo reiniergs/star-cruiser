@@ -1,0 +1,77 @@
+[
+  {
+  	"linktext" : "Ship 1",
+  	"url" : "/index3"
+  },
+  {
+    "linktext" : "Ship 2",
+  	"submenu"  : [
+  	   { 
+  	   	 "linktext" : "LOREM IPSUM",
+  	   	 "url"      : "/",
+         "id" : "20"
+  	   },
+  	   {
+          "linktext"  : "Accordion 1",
+          "id" : "21",
+          "accordion" : {
+          	  "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+          	  "url"  : "/"
+          }
+  	   },
+  	   {
+          "linktext"  : "Accordion 2",
+          "id" : "22",
+          "accordion" : {
+          	  "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+          	  "url"  : "/"
+          }
+  	   },
+  	   {
+          "linktext"  : "Accordion 3",
+          "id" : "23",
+          "accordion" : {
+          	  "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+          	  "url"  : "/"
+          }
+  	   }
+  	] 
+  },
+  {
+    "linktext" : "Ship 3",
+    "submenu"  : [
+       {
+          "linktext"  : "Accordion 1",
+          "id" : "30",
+          "accordion" : {
+              "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+              "url"  : "/"
+          }
+       },
+       { 
+         "linktext" : "LOREM IPSUM",
+         "url"      : "/index3",
+         "id" : "31"
+       },
+       {
+          "linktext"  : "Accordion 2",
+          "id" : "32",
+          "accordion" : {
+              "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+              "url"  : "/index2"
+          }
+       },
+       {
+          "linktext"  : "Accordion 3",
+          "id" : "33",
+          "accordion" : {
+              "text" : "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute",
+              "url"  : "/index3"
+          }
+       }
+    ] 
+  }
+
+]
+
+
