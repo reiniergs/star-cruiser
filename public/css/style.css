@@ -1,41 +1,73 @@
-@font-face {
-    font-family: "Exo";
-    src: url('fonts/Exo-BoldItalic.otf');
+body {
+   font-family: helvetica, arial, sans-serif;
 }
 .app-content {
     width: 100%;
 }
+#slide1 {
+  background-image: url('img/slide1.png') !important;
+  background-size: 100%;
+}
+
+#slide2 {
+  background-image: url('img/slide2.png') !important;
+  background-size: 100%;
+}
+
+#slide3 {
+  background-image: url('img/slide3.jpg') !important;
+  background-size: 100%;
+}
+
 #slogan {
-    font-family: "Exo";
     font-size: 30px;
-    color: #008EB0;
+    color: #0A85BA;
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: bold;
 }
 .action {
-    font-family: "Exo";
     font-size: 16px;
     padding-top: 15px;
-    color: #008EB0;
+    color: #0A85BA;
 }
 .text {
     margin-bottom: 50px;
 }
-row {
+a.actived {
+	font-weight: bold;
+	color: #0A85BA !important;
+}
+.triang {
+    border-style: solid;
+    border-color: rgba(232, 238, 238, 0);
+    border-bottom-color: #0A85BA;
+    border-width: 10px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: bottom;
+    text-align: center;
+    margin-bottom: -11px;
+}
+.row {
     margin-left: 0;
+    font-size: 80%;
 }
 .navbar-btn {
-    margin-top: 15px;
+    padding-top: 15px;
 }
 .img-carousel {
     max-height: 350px;
     max-width: 100%;
     min-height: 350px;
     min-width: 100%;
-    ""
+    background-repeat: no-repeat;
 }
 .logo {
-    margin: 5px 10px;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     vertical-align: center;
 }
 .app-footer {
@@ -43,14 +75,12 @@ row {
     padding-bottom: 30px;
 }
 .link-menu {
-    font-size: 12px;
-    font-weight: bold;
-    font-family: "Exo";
-    color: #008EB0;
+    font-size: 13px;
+    color: black;
 }
 a.link-menu:hover {
-    font-size: 13px;
     text-decoration: none;
+    color: #3b5998;
 }
 .navbar-btn {
     padding-left: 0;
@@ -72,14 +102,14 @@ a.link-menu:hover {
     font-weight: bold;
 }
 .link-group li {
-    color: blue;
     list-style: none;
 }
 .col-md-5 h3 {
-    font-family: "Exo";
     padding-top: 0;
-    margin-top: 12px;
-    color: #008EB0;
+    margin-top: 3px;
+    color: #0A85BA;
+    font-weight: bold;
+    font-size: 21px;
 }
 .col-md-3 input {
     border-radius: 0;
@@ -92,9 +122,9 @@ a.link-menu:hover {
 #submit-btn {
     width: 40%;
     font-size: 16px;
-    font-family: "Exo";
-    background-color: #008EB0;
+    background-color: #0A85BA;
     color: white;
+    font-weight: bold;
 }
 .form-group {
     margin-bottom: 50px;
@@ -105,7 +135,7 @@ a.link-menu:hover {
     margin-right: 0;
 }
 .submenu {
-    background-color: #008EB0;
+    background-color: #0A85BA;
 }
 .dropdown-menu {
     padding: 0;
@@ -118,22 +148,45 @@ a.link-menu:hover {
     background-color: transparent;
     border: 0;
 }
+.panel-body {
+    background-color: #005579;
+    color: white;
+    font-size: 80%;
+}
 .panel-heading {
     background-color: #008EB0 !important;
     background-image: none !important;
     color: white !important;
     border-radius: 0;
-    font-family: "Exo";
+    cursor:pointer;
 }
 li.dropdown:hover {
-    font-size: 20px !important;
+	font-weight: bold;
 }
 div.panel-heading:hover {
-    background-color: #FF6B45 !important;
+    background-color: #EBAD32 !important;
+    font-weight: bold;
 }
 .link-sub {
     color: white;
-    font-family: "Exo";
+}
+#footer-up {
+	background-color: #E8E8E8;
+	padding: 20px; 
+}
+#footer-m {
+	background-color: #515151;
+	padding: 20px;
+	list-sbtyle: none !important;
+}
+#pandt {
+	margin-left: -18px;
+	color: white !important;
+}
+#pandt a {
+	color: white !important;
+	text-decoration: underline;
+	margin-right: 3px;
 }
 .mycaret {
     float: right;
@@ -146,18 +199,18 @@ a {
     color: white;
 }
 a.see {
-    color: #FF6B45;
-    font-family: "Exo";
+    color: #EBAD32;
     float: right;
+    text-decoration: underline;
 }
+
 input[type='email'] {
-    width: 250px;
-    font-family: "Exo";
+    width: 235px;
     font-size: 14px;
 }
-input: invalid {
+input:invalid {
     color: red;
 }
-input: valid {
+input:valid {
     color: green;
 }

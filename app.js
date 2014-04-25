@@ -20,7 +20,7 @@ hbs = exphbs.create({
 });
 app.locals.title = "STAR CRUISER";
 
-        
+         
       
 // all environments
 app.set('port', process.env.PORT || 3000);

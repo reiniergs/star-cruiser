@@ -1,6 +1,5 @@
-<div class="col-md-7 col-md-push-5">
-    <div class="container-fluid">
-        <ul class="nav navbar-nav submenu">
+  <div style="padding-right: 29px;">
+        <ul class="nav navbar-nav submenu navbar-right">
             {{#each menu}}
             <li class="dropdown">
                 <a href="{{this.url}}" class="link-sub">{{this.linktext}}</a>
@@ -9,10 +8,8 @@
                     <li>
                         <div class="panel panel-default">
                             <div class="panel-heading" id="{{this.id}}" acordionid="A{{this.id}}">
-                                
                                 {{this.linktext}}
                                 {{#unless this.url}}<b class="caret mycaret"></b>{{/unless}}
-                                
                             </div>
                             {{#unless this.url }}
                             <div id="A{{this.id}}" class="panel-collapse collapse">
@@ -29,6 +26,4 @@
             </li>
             {{/each}}
         </ul>
-    </div>
 </div>
-<div class="col-md-5 col-md-pull-7"></div>

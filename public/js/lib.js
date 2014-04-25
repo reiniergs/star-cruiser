@@ -8,7 +8,9 @@ $(document).ready(function() {
     /*****************************************************
       Funtiuons for collapse panels 
     *****************************************************/
-    function open(id){$("#" + $("#" + id).attr('acordionid')).attr('class', 'panel-collapse collapse in');}
+    function open(id){
+        $("#" + $("#" + id).attr('acordionid')).attr('class', 'panel-collapse collapse in');
+    }
     function close(id){$("#" + $("#" + id).attr('acordionid')).attr('class', 'panel-collapse collapse');}
     //**************************************
     
