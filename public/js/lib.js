@@ -2,19 +2,17 @@ $(document).ready(function() {
     /********************************
       Global variable
     ********************************/
-      var opened = 0;
-    //******************************
-    
+    var opened = 0;
     /*****************************************************
       Funtiuons for collapse panels 
     *****************************************************/
-    function open(id){
+    function open(id) {
         $("#" + $("#" + id).attr('acordionid')).attr('class', 'panel-collapse collapse in');
     }
-    function close(id){$("#" + $("#" + id).attr('acordionid')).attr('class', 'panel-collapse collapse');}
-    //**************************************
-    
-    /**********************************/
+
+    function close(id) {
+        $("#" + $("#" + id).attr('acordionid')).attr('class', 'panel-collapse collapse');
+    }
     $(".panel-heading").on('click', function(e) {
         var elem = $(this);
         if (opened == 0) {
@@ -32,16 +30,9 @@ $(document).ready(function() {
             }
         }
     });
-    //*************************************
-
-
-
-
-    
-
     /*************************************
      *  Element custom
-    **************************************/
+     **************************************/
     $('.dropdown').on('mouseenter', function(e) {
         $(this).attr('class', 'dropdown open');
     });
@@ -53,6 +44,4 @@ $(document).ready(function() {
         }
     });
     //*************************************
-
-
 });
